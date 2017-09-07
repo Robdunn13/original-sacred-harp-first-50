@@ -1,29 +1,30 @@
+---
 author:
-  email: null
+  email: 
   name: An Author
-  twitter: null
-  url: null
-baseurl: /original-sacred-harp-first-50
+  twitter: 
+  url: 
+baseurl: "/original-sacred-harp-first-50"
 collections:
   annotations:
     output: true
-    permalink: /annotations/:path/
+    permalink: "/annotations/:path/"
   volume_pages:
     output: true
-    permalink: /pages/:path/
+    permalink: "/pages/:path/"
 defaults:
 - scope:
     path: ''
     type: volume_pages
   values:
+    layout: volume_page
+    short_label: p.
     deep_zoom: true
     extra_js:
     - volume-page.js
     - hammer.min.js
     - deepzoom.js
     - openseadragon.min.js
-    layout: volume_page
-    short_label: p.
 - scope:
     path: ''
     type: annotations
@@ -35,37 +36,37 @@ gems:
 homepage_image: https://readux.ecds.emory.edu/books/emory:r8qzb/pages/emory:r8r0k/single-page/
 image_size:
   page:
-    height: 825
     width: 1000
-  small-thumbnail:
-    height: 82
-    width: 100
+    height: 825
   thumbnail:
-    height: 247
     width: 300
+    height: 247
+  small-thumbnail:
+    width: 100
+    height: 82
 permalink: pretty
 publication_info:
-  author: B F White; E J King; J S James.
-  date: '2017'
-  editors:
-  - Jesse Pearlman Karlsberg
-  - Robert Dunn
-  tei_xml: tei.xml
   title: 'Original sacred harp : containing a superior collection of standard melodies,
     of odes, anthems, and church music, and hymns of high repute : rudiments, retaining
     all valuable standard regulations, arr. with all modern up-to-date improvements.,
     an annotated digital edition'
+  date: '2017'
+  author: B F White; E J King; J S James.
+  editors:
+  - Jesse Pearlman Karlsberg
+  - Robert Dunn
+  tei_xml: tei.xml
 show_annotation_author: true
 source_info:
-  author: B F White; E J King; J S James.
-  date: '1911'
-  pdf_url: https://readux.ecds.emory.edu/books/emory:r8qzb/pdf/
   title: 'Original sacred harp : containing a superior collection of standard melodies,
     of odes, anthems, and church music, and hymns of high repute : rudiments, retaining
     all valuable standard regulations, arr. with all modern up-to-date improvements.'
+  author: B F White; E J King; J S James.
+  date: '1911'
   url: https://readux.ecds.emory.edu/books/emory:r8qzb/
+  pdf_url: https://readux.ecds.emory.edu/books/emory:r8qzb/pdf/
   via_readux: true
-tagline: ', an annotated digital edition'
+tagline: ", an annotated digital edition"
 title: 'Original sacred harp : containing a superior collection of standard melodies,
   of odes, anthems, and church music, and hymns of high repute : rudiments, retaining
   all valuable standard regulations, arr. with all modern up-to-date improvements.'
